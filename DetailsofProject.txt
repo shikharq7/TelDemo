@@ -1,0 +1,21 @@
+Details about the project :
+
+I have referred to the user story : User should be able to register using a valid email address
+
+The BDD file of the same user story has been created as BDD.txt
+
+The automation framework has various classes and an excel file, the details of which are below:
+
+1)Excel File - This file will act as an input and contains the Keywords and Arguments which have to be given by the user.
+
+2)TestDriverClass - Contains the main function and the function to read test case from the EXCEL File.
+
+3)TestExcelDriver - contains all the excel function to read from the excel file and getting the row counts.
+
+4)TestCommonDriver - contains function to open chrome/firefox, navigate to URL and Sign into the website.
+
+5)TestKeywords - Contains function to recognise keywords and action accordingly by calling the suitable function.
+
+6) TestUtils  - Contains  function to recognise various  locators- currently this is not being called in our example as we have not given any input for the locator field.
+
+ 

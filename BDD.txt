@@ -1,0 +1,6 @@
+Feature: User to register on http://automationpractice.com/
+
+Scenario User wants to register
+Given    User has a valid email address    
+WHEN     User wants to create an Account
+THEN	 The account should be created
